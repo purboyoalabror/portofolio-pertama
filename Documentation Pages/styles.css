@@ -1,0 +1,75 @@
+/* GLOBAL STYLES */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* SIDEBAR NAVBAR (untuk layar besar) */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+#navbar header {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* KONTEN UTAMA */
+#main-doc {
+  margin-left: 270px; /* memberikan ruang agar tidak tertutup navbar */
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 40px;
+}
+
+code {
+  background: #f4f4f4;
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 4px solid #ccc;
+  overflow-x: auto;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* MEDIA QUERY UNTUK LAYAR KECIL */
+@media (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+
+  .nav-link {
+    padding: 10px 0;
+  }
+}

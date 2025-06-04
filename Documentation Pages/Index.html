@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Basics Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>HTML Basics</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#HTML_Elements">HTML Elements</a>
+    <a class="nav-link" href="#HTML_Attributes">HTML Attributes</a>
+    <a class="nav-link" href="#HTML_Forms">HTML Forms</a>
+    <a class="nav-link" href="#HTML_Semantics">HTML Semantics</a>
+  </nav>
+
+  <main id="main-doc">
+
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>HTML stands for HyperText Markup Language.</p>
+      <p>It is the standard language used to create web pages.</p>
+      <p>HTML describes the structure of a web page using markup.</p>
+      <p>HTML consists of a series of elements that tell the browser how to display content.</p>
+      <p>Web browsers do not display the HTML tags but use them to render the content.</p>
+      <code>&lt;!DOCTYPE html&gt;</code>
+      <code>&lt;html&gt;&lt;/html&gt;</code>
+      <code>&lt;head&gt;&lt;/head&gt;</code>
+      <code>&lt;body&gt;&lt;/body&gt;</code>
+      <ul>
+        <li>HTML is not a programming language.</li>
+        <li>It is a markup language.</li>
+        <li>Tags are the building blocks of HTML.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="HTML_Elements">
+      <header>HTML Elements</header>
+      <p>An HTML element is defined by a start tag, some content, and an end tag.</p>
+      <p>Elements can contain text, other elements, or both.</p>
+      <p>Some HTML elements don’t have closing tags.</p>
+      <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+      <code>&lt;br&gt;</code>
+      <ul>
+        <li>Heading tags: &lt;h1&gt; to &lt;h6&gt;</li>
+        <li>Paragraph: &lt;p&gt;</li>
+        <li>Break: &lt;br&gt;</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="HTML_Attributes">
+      <header>HTML Attributes</header>
+      <p>Attributes provide additional information about elements.</p>
+      <p>They are always specified in the start tag.</p>
+      <p>Common attributes include `href`, `src`, `alt`, `id`, and `class`.</p>
+      <code>&lt;a href="https://example.com"&gt;Visit&lt;/a&gt;</code>
+      <code>&lt;img src="image.jpg" alt="Image"&gt;</code>
+      <ul>
+        <li>`href` defines the URL of a link.</li>
+        <li>`src` specifies the path to an image.</li>
+        <li>`alt` provides alternate text for images.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="HTML_Forms">
+      <header>HTML Forms</header>
+      <p>Forms are used to collect user input.</p>
+      <p>A form element contains input elements like text fields, checkboxes, and buttons.</p>
+      <p>Each form control is defined with a unique tag.</p>
+      <code>&lt;form&gt;&lt;/form&gt;</code>
+      <code>&lt;input type="text"&gt;</code>
+      <ul>
+        <li>&lt;input&gt; for text fields</li>
+        <li>&lt;label&gt; for field labels</li>
+        <li>&lt;button&gt; to submit forms</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="HTML_Semantics">
+      <header>HTML Semantics</header>
+      <p>Semantic elements clearly describe their meaning to both the browser and developer.</p>
+      <p>Examples include &lt;article&gt;, &lt;section&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;.</p>
+      <p>They help with SEO and accessibility.</p>
+      <code>&lt;section&gt;This is a section&lt;/section&gt;</code>
+      <ul>
+        <li>&lt;article&gt; for self-contained content</li>
+        <li>&lt;nav&gt; for navigation links</li>
+        <li>&lt;footer&gt; for page footer</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
